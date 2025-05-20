@@ -1,4 +1,4 @@
-# Awesome Post-Training Data Selection Methods
+# Awesome-Post-Training-Data-Selection
 
 A curated list of research papers on data selection methods for instruction tuning of Large Language Models.
 
