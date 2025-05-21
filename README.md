@@ -136,3 +136,10 @@ A curated list of research papers on data selection methods for instruction tuni
 **Venue:** arXiv 2024  
 **Paper:** [Link](https://arxiv.org/pdf/2305.09246)  
 **Summary:** Explores the possibility of effective instruction tuning with minimal training data.
+
+Preference Alignment Data Selection
+### Principled Data Selection for Alignment: The Hidden Risks of Difficult Examples
+**Authors:** Chengqian Gao, Haonan Li, Liu Liu, Zeke Xie, Peilin Zhao, Zhiqiang Xu  
+**Venue:** ICML 2025  
+**Paper:** [Link](https://arxiv.org/pdf/2502.09650)  
+**Summary:** 
