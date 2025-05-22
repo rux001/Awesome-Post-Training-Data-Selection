@@ -1,17 +1,14 @@
 # Awesome-Post-Training-Data-Selection
 
-A curated list of research papers on data selection methods for instruction tuning of Large Language Models.
+A curated list of research papers on data selection methods for instruction tuning and preference alignment of Large Language Models.
 
 ## 📑 Table of Contents
-- [Model-Based Selection](#model-based-selection)
-- [Uncertainty and Self-Reflection](#uncertainty-and-self-reflection) 
-- [Iterative Selection Methods](#iterative-selection-methods)
-- [Diversity and Data Characteristics](#diversity-and-data-characteristics)
-- [Influence and Efficiency](#influence-and-efficiency)
+- [Instruction Tuning](#instruction-tuning)
+- [Preference Alignment Tuning](#preference-alignment-tuning)
 
 ---
 
-## Model-Based Selection
+## Instruction Tuning
 
 ### Superfiltering: Weak-to-Strong Data Filtering for Fast Instruction-Tuning
 **Authors:** Ming Li, Yong Zhang, Shwai He, Zhitao Li, Hongyu Zhao, Jianzong Wang, Ning Cheng, Tianyi Zhou  
@@ -37,10 +34,6 @@ A curated list of research papers on data selection methods for instruction tuni
 **Paper:** [Link](https://aclanthology.org/2024.naacl-long.421.pdf)  
 **Summary:** Focuses on quality over quantity through self-guided data selection mechanisms.
 
----
-
-## Uncertainty and Self-Reflection
-
 ### SelectIT: Selective Instruction Tuning for LLMs via Uncertainty-Aware Self-Reflection
 **Authors:** Liangxin Liu, Xuebo Liu, Derek F. Wong, Dongfang Li, Ziyi Wang, Baotian Hu, Min Zhang  
 **Venue:** NeurIPS 2024  
@@ -49,7 +42,7 @@ A curated list of research papers on data selection methods for instruction tuni
 
 ### Selective Reflection-Tuning: Student-Selected Data Recycling for LLM Instruction-Tuning
 **Authors:** Ming Li, Lichang Chen, Jiuhai Chen, Shwai He, Jiuxiang Gu, Tianyi Zhou  
-**Venue:** ACL, Findings 2024
+**Venue:** ACL, Findings 2024  
 **Paper:** [Link](https://arxiv.org/pdf/2402.10110)  
 **Summary:** Student-selected data recycling approach that combines teacher LLM's reflection with student model compatibility.
 
@@ -58,10 +51,6 @@ A curated list of research papers on data selection methods for instruction tuni
 **Venue:** arXiv 2023  
 **Paper:** [Link](https://arxiv.org/pdf/2310.11716)  
 **Summary:** Data recycling through reflection for improved instruction tuning.
-
----
-
-## Iterative Selection Methods
 
 ### IterSelectTune: An Iterative Training Framework for Efficient Instruction-Tuning Data Selection
 **Authors:** Jielin Song, Siyu Liu, Bin Zhu, Yanghui Rao  
@@ -75,10 +64,6 @@ A curated list of research papers on data selection methods for instruction tuni
 **Paper:** [Link](https://arxiv.org/abs/2503.00186)  
 **Summary:** Iterative approach for efficient data selection in LLM instruction tuning.
 
----
-
-## Diversity and Data Characteristics
-
 ### Data Diversity Matters for Robust Instruction Tuning
 **Authors:** Alexander Bukharin, Shiyang Li, Zhengyang Wang, Jingfeng Yang, Bing Yin, Xian Li, Chao Zhang, Tuo Zhao, Haoming Jiang  
 **Venue:** EMNLP, Findings 2024  
@@ -88,7 +73,7 @@ A curated list of research papers on data selection methods for instruction tuni
 ### Diversity Measurement and Subset Selection for Instruction Tuning Datasets
 **Authors:** Peiqi Wang, Yikang Shen, Zhen Guo, Matt Stallone, Yoon Kim, Polina Golland, Rameswar Panda  
 **Venue:** arXiv 2024  
-**Paper:** [Link]([https://arxiv.org/abs/2402.05103](https://arxiv.org/pdf/2402.02318))  
+**Paper:** [Link](https://arxiv.org/pdf/2402.02318)  
 **Summary:** Methods for measuring diversity and selecting subsets in instruction tuning datasets.
 
 ### Self-Evolved Diverse Data Sampling for Efficient Instruction Tuning
@@ -102,10 +87,6 @@ A curated list of research papers on data selection methods for instruction tuni
 **Venue:** arXiv 2025  
 **Paper:** [Link](https://arxiv.org/pdf/2502.04194)  
 **Summary:** Analysis of what constitutes the best instruction-tuning data.
-
----
-
-## Influence and Efficiency
 
 ### LESS: Selecting Influential Data for Targeted Instruction Tuning
 **Authors:** Mengzhou Xia, Sadhika Malladi, Suchin Gururangan, Sanjeev Arora, Danqi Chen  
@@ -137,9 +118,12 @@ A curated list of research papers on data selection methods for instruction tuni
 **Paper:** [Link](https://arxiv.org/pdf/2305.09246)  
 **Summary:** Explores the possibility of effective instruction tuning with minimal training data.
 
-Preference Alignment Data Selection
+---
+
+## Preference Alignment Tuning
+
 ### Principled Data Selection for Alignment: The Hidden Risks of Difficult Examples
 **Authors:** Chengqian Gao, Haonan Li, Liu Liu, Zeke Xie, Peilin Zhao, Zhiqiang Xu  
 **Venue:** ICML 2025  
 **Paper:** [Link](https://arxiv.org/pdf/2502.09650)  
-**Summary:** 
+**Summary:** Examines the hidden risks of using difficult examples in preference alignment data selection.
